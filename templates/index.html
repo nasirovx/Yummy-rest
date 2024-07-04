@@ -1,0 +1,760 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Yummy Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/favicon.png' %}" rel="icon">
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/main.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Yummy
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="{% static 'assets/img/favicon.png' %}" alt="">
+        <h1>Yummy<span>.</span></h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#chefs">Chefs</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <a class="btn-book-a-table" href="#book-a-table">Book a Table</a>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div
+          class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">Enjoy Your Healthy<br>Delicious Food</h2>
+          <p data-aos="fade-up" data-aos-delay="100">Sed autem laudantium dolores. Voluptatem itaque ea consequatur
+            eveniet. Eum quas beatae cumque eum quaerat.</p>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="#book-a-table" class="btn-book-a-table">Book a Table</a>
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+              class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch
+                Video</span></a>
+          </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src="{% static 'assets/img/hero-img.png' %}" class="img-fluid" alt="" data-aos="zoom-out"
+            data-aos-delay="300">
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>About Us</h2>
+          <p>Learn More <span>About Us</span></p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-7 position-relative about-img"
+            style="background-image: url('./static/assets/img/about.jpg')" data-aos="fade-up" data-aos-delay="150">
+            <div class="call-us position-absolute">
+              <h4>Book a Table</h4>
+              <p>+996 990 86 76 06</p>
+            </div>
+          </div>
+          <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua.
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                  pariatur.</li>
+              </ul>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+              </p>
+
+              <div class="position-relative mt-4">
+                <img src="{% static 'assets/img/about-2.jpg' %}" class="img-fluid" alt="">
+                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="why-box">
+              <h3>Why Choose Yummy?</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad
+                corporis.
+              </p>
+              <div class="text-center">
+                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+              </div>
+            </div>
+          </div><!-- End Why Box -->
+
+          <div class="col-lg-8 d-flex align-items-center">
+            <div class="row gy-4">
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-clipboard-data"></i>
+                  <h4>Corporis voluptates officia eiusmod</h4>
+                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-gem"></i>
+                  <h4>Ullamco laboris ladore pan</h4>
+                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-inboxes"></i>
+                  <h4>Labore consequatur incidid dolore</h4>
+                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Stats Counter Section ======= -->
+    <section id="stats-counter" class="stats-counter">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Clients</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Workers</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Stats Counter Section -->
+
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Menu</h2>
+          <p>Check Our <span>Yummy Menu</span></p>
+        </div>
+
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
+              <h4>Starters</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
+              <h4>Breakfast</h4>
+            </a><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
+              <h4>Lunch</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner">
+              <h4>Dinner</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="tab-pane fade active show" id="menu-starters">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Starters</h3>
+            </div>
+
+            {% for starter in starters %}
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="{{ starter.image.url }}" class="glightbox"><img src="{{ starter.image.url }}"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>{{ starter.title }}</h4>
+                <p class="ingredients">
+                  {{ starter.description }}
+                </p>
+                <p class="price">
+                  ${{ starter.price }}
+                </p>
+              </div><!-- Menu Item -->
+              {% endfor %}
+
+            </div>
+          </div><!-- End Starter Menu Content -->
+
+          <div class="tab-pane fade" id="menu-breakfast">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Breakfast</h3>
+            </div>
+
+            <div class="row gy-5">
+              {% for breakfast in breakfasts %}
+              <div class="col-lg-4 menu-item">
+                <a href="{{ breakfast.image.url }}" class="glightbox"><img src="{{ breakfast.image.url }}"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>{{ breakfast.title }}</h4>
+                <p class="ingredients">
+                  {{ breakfast.title }}
+                </p>
+                <p class="price">
+                  ${{ breakfast.price }}
+                </p>
+              </div><!-- Menu Item -->
+              {% endfor %}
+
+            </div>
+          </div><!-- End Breakfast Menu Content -->
+
+          <div class="tab-pane fade" id="menu-lunch">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Lunch</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              {% for lunch in lunchts %}
+              <div class="col-lg-4 menu-item">
+                <a href="{{ lunch.image.url }}" class="glightbox"><img src="{{ lunch.image.url }}"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>{{ lunch.title }}</h4>
+                <p class="ingredients">
+                  {{ lunch.title }}
+                </p>
+                <p class="price">
+                  ${{ lunch.price }}
+                </p>
+              </div><!-- Menu Item -->
+              {% endfor %}
+            </div>
+          </div><!-- End Lunch Menu Content -->
+
+          <div class="tab-pane fade" id="menu-dinner">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Dinner</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              {% for dinner in dinners %}
+              <div class="col-lg-4 menu-item">
+                <a href="{{ dinner.image.url }}" class="glightbox"><img src="{{ dinner.image.url }}"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>{{ dinner.title }}</h4>
+                <p class="ingredients">
+                  {{ dinner.title }}
+                </p>
+                <p class="price">
+                  ${{ dinner.price }}
+                </p>
+              </div><!-- Menu Item -->
+              {% endfor %}
+            </div>
+          </div><!-- End Dinner Menu Content -->
+
+        </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Testimonials</h2>
+          <p>What Are They <span>Saying About Us</span></p>
+        </div>
+
+        <div class="slides-1 swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+            {% for testimonial in testimonials %}
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        {{ testimonial.description }}
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>{{ testimonial.first_name }} {{ testimonial.last_name }}</h3>
+                      <h4>{{ testimonial.profession }}</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="{{ testimonial.image.url }}" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+            {% endfor %}
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Events</h2>
+          <p>Share <span>Your Moments</span> In Our Restaurant</p>
+        </div>
+
+        <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+            {% for event in events %}
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end"
+              style="background-image: url('{{ event.image.url }}')">
+              <h3>{{ event.title }}</h3>
+              <div class="price align-self-start">${{ event.price }}</div>
+              <p class="description">
+                {{ event.description }}
+              </p>
+            </div><!-- End Event item -->
+            {% endfor %}
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Events Section -->
+
+    <!-- ======= Chefs Section ======= -->
+    <section id="chefs" class="chefs section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Chefs</h2>
+          <p>Our <span>Proffesional</span> Chefs</p>
+        </div>
+
+        <div class="row gy-4">
+          {% for chef in chefs %}
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="chef-member">
+              <div class="member-img">
+                <img src="{{ chef.image.url }}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="{{ chef.twitter }}"><i class="bi bi-twitter"></i></a>
+                  <a href="{{ chef.facebook }}"><i class="bi bi-facebook"></i></a>
+                  <a href="{{ chef.instagram }}"><i class="bi bi-instagram"></i></a>
+                  <a href="{{ chef.linkedin }}"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>{{ chef.full_name }}</h4>
+                <span>{{ chef.role }}</span>
+                <p>{{ chef.opinion }}</p>
+              </div>
+            </div>
+          </div><!-- End Chefs Member -->
+          {% endfor %}
+        </div>
+
+      </div>
+    </section><!-- End Chefs Section -->
+
+    <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Book A Table</h2>
+          <p>Book <span>Your Stay</span> With Us</p>
+        </div>
+
+        <div class="row g-0">
+
+          <div class="col-lg-4 reservation-img"
+            style="background-image: url('./static/assets/img/reservation.jpg');"
+            data-aos="zoom-out" data-aos-delay="200"></div>
+
+          <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
+            <form method="post" role="form" class="php-email-form" data-aos-delay="100">
+              <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                  {{ book_a_tableform.full_name }}
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  {{ book_a_tableform.email }}
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  {{ book_a_tableform.phone }}
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  {{ book_a_tableform.date }}
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  {{ book_a_tableform.time }}
+                  <div class="validate"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  {{ book_a_tableform.people }}
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                {{ book_a_tableform.message }}
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm
+                  your reservation. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Book a Table</button></div>
+            </form>
+          </div><!-- End Reservation Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Book A Table Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>gallery</h2>
+          <p>Check <span>Our Gallery</span></p>
+        </div>
+
+        <div class="gallery-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            {% for gallery in galleryes %}
+            <div class="swiper-slide">
+              <a class="glightbox" data-gallery="images-gallery" href="{{ gallery.image.url }}">
+                <img src="{{ gallery.image.url }}" class="img-fluid" alt="">
+              </a>
+            </div>
+            {% endfor %}
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Need Help? <span>Contact Us</span></p>
+        </div>
+
+        <div class="mb-3">
+          <iframe style="border:0; width: 100%; height: 350px;"
+            src="https://2gis.kz/almaty"
+            frameborder="0" allowfullscreen></iframe>
+        </div><!-- End Google Maps -->
+
+        <div class="row gy-4">
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-map flex-shrink-0"></i>
+              <div>
+                <h3>Our Address</h3>
+                <p>A403 exemple Street, Osh, KYRGYZSTAN 050000 - KG</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center">
+              <i class="icon bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>5ekastannasirov@gmail.com</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+996 990 86 76 06</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-share flex-shrink-0"></i>
+              <div>
+                <h3>Opening Hours</h3>
+                <div><strong>Mon-Sat:</strong> 11AM - 23PM;
+                  <strong>Sunday:</strong> Closed
+                </div>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+        <form method="post" role="form" class="php-email-form p-3 p-md-4">
+          <div class="row">
+            <div class="col-xl-6 form-group">
+              {{ contacts.full_name }}
+            </div>
+            <div class="col-xl-6 form-group">
+              {{ contacts.email }}
+            </div>
+          </div>
+          <div class="form-group">
+            {{ contacts.subject }}
+          </div>
+          <div class="form-group">
+            {{ contacts.message }}
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form><!--End Contact Form -->
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div>
+            <h4>Address</h4>
+            <p>
+              A403 exemple Street <br>
+              Osh, KYRGYZSTAN 050000 - KG<br>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Reservations</h4>
+            <p>
+              <strong>Phone:</strong> +996 990 86 76 06<br>
+              <strong>Email:</strong> 5ekastannasirov@gmail.com<br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>
+              <strong>Mon-Sat: 11AM</strong> - 23PM<br>
+              Sunday: Closed
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Yummy</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
